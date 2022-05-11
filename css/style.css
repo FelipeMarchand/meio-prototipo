@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+input{
+    box-sizing: border-box;
+    width: 556px;
+    height: 49.21px;
+    margin-top: 25px;
+    left: 1308px;
+    top: 237.79px;
+    border: 2px solid #2764AE;
+    border-radius: 4px;
+}   
+.cadastro{
+    color: #7F7F7F;
+    text-align: center;
+    padding: 5px;
+    margin-top: 50px;
+}
+.cad{
+    color: #04489C;
+}
+.cad:hover{
+    cursor: pointer;
+}
+
+
+.botao{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+   background-color: #3976BF;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   margin-top: 15px;
+   font-size: 15px;
+   width: 100px;
+   text-align: center;
+   align-items: center;
+   padding: 8px;
+   transition: .4s ease all;
+}
+
+button:hover {
+cursor: pointer;
+}
+
+h1{
+    font-style: normal;
+    font-size: 48px;
+    line-height: 72px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    color: #2764AE;
+}
+
+div.msg-erro{
+    background-color: rgba(0, 0, 0, 0.74);
+    color: rgba(255, 255, 255, 0.6);
+    align-items: center;
+    width: 250px;
+    margin: 10px auto;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.7 );
+    margin-top: -250px;
+}
+
